@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Homework_4</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML5 Семантичні елементи</h1>
+      <nav>
+        <ul>
+          <li><a href="#about_semantics">Про семантичні елементи</a></li>
+          <li><a href="#browsers_support">Підтримка браузерів</a></li>
+          <li>
+            <a href="#new_semantic_tags">Нові семантичні елементи в HTML5</a>
+            <ul>
+              <li><a href="#secon">HTML5 &ltsection&gt елемент</a></li>
+              <li><a href="#article">HTML5 &ltarticle&gt елемент</a></li>
+              <li><a href="#header">HTML5 &ltheader&gt елемент</a></li>
+              <li><a href="#footer">HTML5 &ltfooter&gt елемент</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2 id="about_semantics">Про семантичні елементи</h2>
+        <p>Семантичний елемент чітко описує його значення як для браузера, так і для розробника.</p>
+        <p>
+          Приклади <span>не семантичних</span> елементів: &ltdiv&gt і &ltspan&gt- нічого не говорить про його вміст.
+        </p>
+        <p>
+          Приклади <span>семантичних</span> елементів: &ltform&gt, &lttable&gt і &ltarticle&gt- чітко визначає його
+          зміст.
+        </p>
+      </section>
+      <section>
+        <h2 id="browsers_support">Підтримка браузерів</h2>
+        <ul>
+          <li><img src="./images/firefox.svg" alt="Mozilla firefox" /></li>
+          <li><img src="./images/google_chrome.svg" alt="Google chrome" /></li>
+          <li><img src="./images/internet_explorer.svg" alt="Internet explorer" /></li>
+          <li><img src="./images/opera.svg" alt="Opera" /></li>
+          <li><img src="./images/safari.svg" alt="Safari" /></li>
+        </ul>
+        <p>Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах.</p>
+        <p>Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі елементи".</p>
+        <p>
+          Прочитайте про це в
+          <a href="https://www.browserstack.com/guide/html5-browser-compatibility-test" target="_blank">підтримці браузера HTML5</a>
+        </p>
+      </section>
+      <section>
+        <h2 id="new_semantic_tags">Нові семантичні елементи в HTML5</h2>
+        <p>HTML5 пропонує нові семантичні елементи для визначення різних частин веб-сторінки:</p>
+        <ul>
+          <li>&ltsection&gt</li>
+          <li>&ltarticle&gt</li>
+          <li>&ltheader&gt</li>
+          <li>&ltfooter&gt</li>
+        </ul>
+        <section>
+          <h3 id="section">HTML5 &ltsection&gt елемент</h3>
+          <p>Елемент &ltsection&gt визначає розділ в документі.</p>
+          <p>
+            Згідно з документацією в3к'с HTML5: "розділ представляє собою тематичну угруповання контенту, зазвичай з
+            заголовком".
+          </p>
+          <p>
+            Домашня сторінка зазвичай може бути розділена на розділи для ознайомлення, змісту і контактної інформації.
+          </p>
+          <img src="./images/section.png" alt="exapmle of using tag section" />
+        </section>
+        <section>
+          <h3 id="article">HTML5 &ltarticle&gt елемент</h3>
+          <p>Елемент &ltarticle&gt визначає незалежний, автономний вміст</p>
+          <p>
+            Стаття повинна мати сенс самостійно, і вона повинна мати можливість читати його незалежно від іншої частини
+            веб-сайту.
+          </p>
+          <p>Приклади того, де можна використовувати елемент &ltarticle&gt</p>
+          <ul>
+            <li>Повідомлення на форумі</li>
+            <li>блозі</li>
+            <li>Газетна стаття</li>
+          </ul>
+          <img src="./images/article.png" alt="exapmle of using tag article" />
+        </section>
+        <section>
+          <h3 id="header">HTML5 &ltheader&gt елемент</h3>
+          <p>Елемент &ltheader&gt задає заголовок для документа або розділу.</p>
+          <p>Елемент &ltheader&gt повинен використовуватися в якості контейнера для вступного змісту.</p>
+          <p>В одному документі може бути кілька елементів &ltheader&gt .</p>
+          <p>У наступному прикладі визначається заголовок для статті:</p>
+          <img src="./images/header.png" alt="exapmle of using tag header" />
+        </section>
+        <section>
+          <h3 id="footer">HTML5 &ltfooter&gt елемент</h3>
+          <p>Елемент &ltfooter&gt вказує нижній колонтитул для документа або розділу.</p>
+          <p>
+            Нижній колонтитул зазвичай містить автора документа, інформацію про авторське право, посилання на умови
+            використання, контактні дані і т.д.
+          </p>
+          <p>В одному документі може бути кілька елементів &ltfooter&gt .</p>
+          <img src="./images/footer.png" alt="exapmle of using tag footer" />
+        </section>
+      </section>
+      <article>
+        <h2>Корисне відео</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/mzPxo7Y6JyA"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+         </iframe>
+      </article>
+      <article>
+        <iframe src="https://nataly2110.github.io/homework_1/" frameborder="0"></iframe>
+      </article>
+    </main>
+    <footer>
+      <address><a href="mailto:n.novytskaya@gmail.com">n.novytskaya@gmail.com</a></address>
+      <address><a href="tel:+380975475470">+380975475470</a></address>
+      <address>Ukraine, Kyiv, Sofii Rusovoi, 5</address>
+    </footer>
+  </body>
+</html>
